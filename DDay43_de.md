@@ -140,4 +140,3 @@ Dann wird für jede einzelne Einheit der Moralwert nach folgender Formel ermitte
 - **-1** 	Britannische Infanterie
 
 Jede Einheit, für die ein Moralwert von -1 oder niedriger ermittelt wird, löst sich auf.
-
