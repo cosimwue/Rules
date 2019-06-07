@@ -6,11 +6,11 @@
 
 ## Content
 
-[**I. Introduction.**](#I. Introduction.)
+[**I. Introduction.**](#i.-introduction.)
 
-[**II. Basic rules.**](#II. Basic rules.)
+[**II. Basic rules.**](#ii.-basic-rules.)
 
-[II.1.	basic rules – map and scale.](#II.1.	basic rules – map and scale.])
+[II.1.	basic rules – map and scale.](#ii.1.-basic-rules-–-map-and-scale.])
 
 [II.2.	basic rules – units and unit tokens.](#II.2.	basic rules – units and unit tokens.)
 
@@ -138,58 +138,68 @@ Every unit has a specific orientation; changing the orientation of the unit requ
 All units are either ready for combat, or they are not (tokens are marked accordingly on both sides). Readying a unit for combat takes up one of any unit’s two actions (see [II.13. action – general rules](#II.13. action – general rules)). Note that artillery cannot move once it is ready for combat.
 
 ### II.8. basic rules – formations.
-Individual units can be part of a formation, which can be advantageous in certain combat situations (see [IV.8 close combat – modifiers](#IV.8 close combat – modifiers)). Some operations are only possible while units are in formation (see [IV.9. cavalry charge](#IV.9. cavalry charge)). For a formation unit tokens have to be in physical contact. Units in a single line abreast represent a simple formation, units in two or more lines behind each other represent a deep formation.
+Individual units can be part of a formation, which can be advantageous in certain combat situations (see [IV.8 close combat – modifiers](#IV.8 close combat – modifiers)). Some operations are only possible while units are in formation (see [IV.9. cavalry charge](#IV.9. cavalry charge)). For a formation unit tokens have to be in physical contact. Units in a single line abreast represent a **simple formation**, units in two or more lines behind each other represent a **deep formation**.
 
 ### II.9. basic rules – general sequence of action.
 PdB is a traditional, symmetric force-on-force simulation where two sides – A and B – oppose each other. For larger scenarios the addition of staff teams on both sides is advisable. Ideally, staff teams are physically separated from their subordinate units; written orders are the only means of communication allowed between the staff teams and their subordinate commanders. For larger scenarios the employment of a team of umpires is advisable, who serve to clarify rules and decide over line-of-sight disputes and other issues arising out of the necessity of interpreting a topographical map.
 The general sequence of action in PdB is as follows:
-A acts – B acts
+
+**A acts – B acts**
+
 In this context it is important to bear in mind the rules covering reactive action (II.13., II.14. und II.15.).
 
 ### II.10. basic rules – activation.
-Before a bataillon, battery or squadron can act in any way, it has to be activated; as a general rule, any unit which has a command element represented by a pennant requires activation. Activation is done by throwing 1D20, the result determining whether the unit in question is active for the present turn (for further details see V.1. unit activation). If activation fails, units can only react to enemy action (see II.13. reactive action).
+Before a bataillon, battery or squadron can act in any way, it has to be activated; as a general rule, any unit which has a command element represented by a pennant requires activation. Activation is done by throwing 1D20, the result determining whether the unit in question is active for the present turn (for further details see [V.1. unit activation](#V.1. unit activation)). If activation fails, units can only react to enemy action (see [II.13. reactive action](#II.13. reactive action)).
 
 ### II.11. basic rules – unit action.
 Each unit can undertake two of the five actions listed below in each turn:
-movement
-change of orientation
-establishing combat readiness
-entering close combat
-open fire on enemy
+
+- movement
+- change of orientation
+- establishing combat readiness
+- entering close combat
+- open fire on enemy
+
 Note that it is possible to undertake the same action twice. Heavy artillery can only undertake one action per turn, field artillery (foot) can only undertake one action per turn, but can fire two times; horse artillery can undertake two actions per turn.
 
 ### II.12. basic rules – reactive action.
-If an enemy unit moves into the sector observed by a unit (see II.7. unit orientation), the latter can react once. A unit reacting to an enemy loses one action during the next turn. There are three different types of reaction:
-    (a) reactive fire.
-    (b) reactive close combat if the enemy unit is closer than 15mm.
-    (c) reactive retreat – a unit retreating moves its average movement distance (see III.1. movement – general rules) either behind the nearest friendly unit or behind the nearest topographical feature offering cover or into the direction of such cover. A retreating unit loses its combat readiness; combat ready artillery cannot execute a reactive retreat
+If an enemy unit moves into the sector observed by a unit (see [II.7. unit orientation](#II.7. unit orientation)), the latter can react once. A unit reacting to an enemy loses one action during the next turn. There are three different types of reaction:
+
+1. **reactive fire.**
+2. **reactive close combat** if the enemy unit is closer than 15mm.
+3. **reactive retreat** – a unit retreating moves its average movement distance (see [III.1. movement – general rules](#III.1. movement – general rules)) either behind the nearest friendly unit or behind the nearest topographical feature offering cover or into the direction of such cover. A retreating unit loses its combat readiness; combat ready artillery cannot execute a reactive retreat
 
 ## III. Movement.
 
 ### III.1. movement – general rules.
-The primary requirement for active movement for any unit is activation (see II.11. activation and V.1. unit activation). In addition, it has to be within the command range of the command element to which it is assigned (siehe V.3. command range). For an activated batallion, battery or squadron a throw of one or more D6 (see the following table) determines its maximum range (throw result = range in cm); any subordinate company, gun or troop may move up to that maximum range along the axis of its orientation.
-machine gun (combat ready)						1 W6
-infantry								2 W6
-cavalry (dismounted)							2 W6
-heavy artillery (limbered)						2 W6
-ammunition wagon 							2 W6
-field artillery (limbered)						3 W6
-machine gun (limbered)						3 W6
-staff unit								3 W6
-heliograph team (foot)						3 W6
-armoured train							4 W6
-horse artillery (limbered)						5 W6
-cavalry									5 W6
-mobile infantry							5 W6
-command element							5 W6
-heliograph team (cavalry)						5 W6
-Leichte Kavallerie							6 W6
+The primary requirement for active movement for any unit is activation (see [II.11. activation](# II.11. activation) and [V.1. unit activation](#V.1. unit activation)). In addition, it has to be within the command range of the command element to which it is assigned (see [V.3. command range](#V.3. command range)). For an activated batallion, battery or squadron a throw of one or more D6 (see the following table) determines its maximum range (throw result = range in cm); any subordinate company, gun or troop may move up to that maximum range along the axis of its orientation.
+
+*Table 3: distances of movement*
+
+|unit	type										|distance in cm|
+|:-----------------------------------|-------------:|
+|machine gun (combat ready)          |1 W6          |
+|infantry                            |2 W6          |
+|cavalry (dismounted)                |2 W6          |
+|heavy artillery (limbered)          |2 W6          |
+|ammunition wagon                    |2 W6          |
+|field artillery (limbered)          |3 W6          |
+|machine gun (limbered)              |3 W6          |
+|staff unit                          |3 W6          |
+|heliograph team (foot)              |3 W6          |
+|armoured train                      |4 W6          |
+|horse artillery (limbered)          |5 W6          |
+|cavalry                             |5 W6          |
+|mobile infantry                     |5 W6          |
+|command element                     |5 W6          |
+|heliograph team (cavalry)           |5 W6          |
+|Leichte Kavallerie                  |6 W6          |
 
 ### III.2. movement – special rules.
-Units can move through friendly units but not through enemy units. Two units ready for combat may not end up in the same place as the result of a movement; the „stacking“ of units is only allowed in the case of marching columns (see III.6. marching columns).
+Units can move through friendly units but not through enemy units. Two units ready for combat may not end up in the same place as the result of a movement; the „stacking“ of units is only allowed in the case of marching columns (see [III.6. marching columns](#III.6. marching columns)).
 
 ### III.3. movement – rules for artillery.
-Artillery can only be moved by using limbers. Moving artillery from one position to another takes several turns due to the limitations on actions (see II.12. unit action):
+Artillery can only be moved by using limbers. Moving artillery from one position to another takes several turns due to the limitations on actions (see [II.12. unit action](#ii.12.-unit-action)):
 Turn x		– gun ready for action.
 Turn x+1	– gun limbers up.
 Turn x+2	– gun moves.
